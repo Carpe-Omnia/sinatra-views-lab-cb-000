@@ -5,11 +5,11 @@
   <body>
     <%
       time = DateTime.now
-      string = time.strftime([format='%A %d %B %Y '])
+      string = time.strftime("Today is %A, %B %d, %Y")
     %>
     <p>
       The date is
-      <!--<%= #"#{string}" %> -->
+      <%= "#{string}" %> 
     </p>
   </body>
 </HTML>
