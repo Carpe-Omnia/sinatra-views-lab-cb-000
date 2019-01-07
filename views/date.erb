@@ -3,5 +3,12 @@
   <head>
   </head>
   <body>
+    <% 
+      time = DateTime.now 
+      string = time.strftime([format='%A, %d, %B']) 
+    %>
+    <p>
+      The date is <%= string %> 
+    </p>     
   </body>
 </HTML>  
