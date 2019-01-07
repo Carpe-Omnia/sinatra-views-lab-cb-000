@@ -1,5 +1,5 @@
 require 'date'
 time = DateTime.now
 #string = strftime([format='%A, %d, %B%'])
-string = time.strftime("Printed on %m/%d/%Y")
+string = time.strftime("Today is %A/%d/%B")
 puts "#{string}"
