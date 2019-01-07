@@ -1,3 +1,4 @@
 require 'date'
 time = DateTime.now
-puts time
+string = time.strftime([format='%A, %d, %B'])
+puts string
